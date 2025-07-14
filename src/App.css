@@ -142,7 +142,7 @@ body {
 }
 
 .logo-image {
-  width: 65px;
+  width: 105px;
   height: 65px;
   object-fit: contain;
   transition: all 0.3s ease;
