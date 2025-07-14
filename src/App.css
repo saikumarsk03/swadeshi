@@ -141,6 +141,13 @@ body {
   transition: all 0.3s ease;
 }
 
+.logo-image {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
 .logo-icon:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 20px rgba(59, 130, 246, 0.35);
@@ -1014,6 +1021,12 @@ body {
   width: 32px;
   height: 32px;
   font-size: 1rem;
+}
+
+.footer-logo-image {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .footer-logo span {

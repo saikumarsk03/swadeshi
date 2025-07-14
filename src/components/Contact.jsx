@@ -110,9 +110,11 @@ const Contact = () => {
 
         <div className="footer">
           <div className="footer-logo">
-            <div className="logo-icon">
-              <span>S</span>
-            </div>
+            <img 
+              src="/swadeshi logo (1).png" 
+              alt="Swadeshi Siri Udyog Logo" 
+              className="footer-logo-image"
+            />
             <span>Swadeshi Siri Udyog</span>
           </div>
           <p>© 2024 Swadeshi Siri Udyog. All rights reserved.</p>

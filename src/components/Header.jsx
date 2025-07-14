@@ -37,9 +37,11 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="logo-icon">
-              <span>S</span>
-            </div>
+            <img 
+              src="/swadeshi logo (1).png" 
+              alt="Swadeshi Siri Udyog Logo" 
+              className="logo-image"
+            />
             <div className="logo-text">
               <h1>Swadeshi Siri Udyog</h1>
               <p>Manufacturing Co.</p>
