@@ -142,7 +142,7 @@ body {
 }
 
 .logo-image {
-  position: absolute;
+  position: relative;
   width: 65px;
   height: 65px;
   object-fit: contain;
