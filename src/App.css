@@ -149,14 +149,24 @@ body {
 .logo-text h1 {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #1e293b;
+  color: white;
   margin: 0;
+  transition: color 0.3s ease;
 }
 
 .logo-text p {
   font-size: 0.8rem;
-  color: #64748b;
+  color: rgba(255, 255, 255, 0.8);
   margin: 0;
+  transition: color 0.3s ease;
+}
+
+.header.scrolled .logo-text h1 {
+  color: #1e293b;
+}
+
+.header.scrolled .logo-text p {
+  color: #64748b;
 }
 
 .desktop-nav {
@@ -166,7 +176,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #475569;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
   transition: all 0.3s ease;
   position: relative;
@@ -174,6 +184,14 @@ body {
 }
 
 .nav-link:hover {
+  color: white;
+}
+
+.header.scrolled .nav-link {
+  color: #475569;
+}
+
+.header.scrolled .nav-link:hover {
   color: #3b82f6;
 }
 
@@ -184,8 +202,12 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: #3b82f6;
+  background: white;
   transition: width 0.3s ease;
+}
+
+.header.scrolled .nav-link::after {
+  background: #3b82f6;
 }
 
 .nav-link:hover::after {
@@ -234,8 +256,13 @@ body {
   background: none;
   border: none;
   font-size: 1.5rem;
-  color: #475569;
+  color: white;
   cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header.scrolled .mobile-menu-btn {
+  color: #475569;
 }
 
 .mobile-menu {
