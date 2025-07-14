@@ -142,8 +142,8 @@ body {
 }
 
 .logo-image {
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   transition: all 0.3s ease;
 }
@@ -1024,8 +1024,8 @@ body {
 }
 
 .footer-logo-image {
-  width: 32px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
   object-fit: contain;
 }
 
