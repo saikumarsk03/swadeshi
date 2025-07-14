@@ -62,15 +62,15 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="header-cta">
+          {/* <div className="header-cta">
             <motion.button
               className="whatsapp-btn"
               onClick={handleWhatsAppClick}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-            >
+            />
              
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button
