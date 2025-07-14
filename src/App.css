@@ -143,8 +143,8 @@ body {
 
 .logo-image {
   position: relative;
-  width: 65px;
-  height: 65px;
+  width: 80px;
+  height: 85px;
   object-fit: contain;
   transition: all 0.3s ease;
 }
