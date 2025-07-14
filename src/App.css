@@ -127,8 +127,8 @@ body {
 }
 
 .logo-icon {
-  width: 100px;
-  height: 100px;
+  width: 45px;
+  height: 45px;
   background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   border-radius: 12px;
   display: flex;
@@ -142,8 +142,8 @@ body {
 }
 
 .logo-image {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   transition: all 0.3s ease;
 }
